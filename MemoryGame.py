@@ -110,4 +110,4 @@ def main(page: ft.Page):
      page.add(titlerow,
               ft.Divider(height=20, color="transparent"),
               startrow, text)
-ft.app(target=main)
+ft.app(target=main, assets_dir="assets")
